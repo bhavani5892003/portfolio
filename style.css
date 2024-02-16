@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+}
+header{
+    background-color: #373152;
+    height: 100vh;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 86%);
+}   
+.container{
+    width: 1200px;
+    margin-inline: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#left-nav{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+#contact{
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-weight: 900;
+    /* #8b94db; */
+    background-color:#2eb086;
+    border: 3px solid transparent;
+    color: #313552;
+    transition: 0.5s;
+
+}
+#contact:hover{
+    color: #2eb086;
+    background-color: #313552;
+
+border: 3px solid #2eb086;}
+#links a{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+#links a:hover{
+    color: #2eb086;
+}
+#hero{
+    margin-inline: auto;
+    display: flex;
+    color: #f0f0f0;
+    align-items: center;
+    justify-content: space-between;
+}
+#hero-left{
+    margin-top: 50px;
+    margin-left:200px ;
+}
+#hero-right{
+    text-align: right;
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 250px;
+}
+#hero-right h6{
+    color: #b8405e;
+}
+#hero-right h1{
+    color: #2eb086;
+}
+#hero-right span{
+    color: #f0f0f0;
+}
+#skills{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: 1100;
+
+}
+#skills h3{
+    color: #2eb086;
+    font-weight: 900%;
+
+}
+#skills span{
+    color: black;
+}
+#card-box{
+    display: flex;
+    margin-left:30px;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(241, 245, 248);
+    color:black;
+    font-weight: 800;
+    padding: 20px;
+    margin: 20px;
+    border:3px solid rgb(231, 222, 222);
+    width:400px;
+    height:100px;
+    transition: 0.8s;
+   }
+.card:hover {
+   background-color: rgb(220, 228, 235);
+   color: black;       
+   width:420px;
+   height: 120px;
+   border: 5px dashed white;
+}
+.hr{
+    color: black;
+}
+#about{
+    color: black;
+
+}
+#flaticons i{
+    color: white;
+    background-color: black;
+    justify-items:left ;
+    width: 20px;
+    height: 15px;
+}
+
